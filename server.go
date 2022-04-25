@@ -8,6 +8,8 @@ import (
 	"time"
 )
 
+//rebase comment
+
 func getTime(w http.ResponseWriter, req *http.Request) {
 	currentTime := time.Now()
 	timeWithTimestamp := currentTime.Format(time.RFC3339)
